@@ -2388,6 +2388,26 @@ bool LoadBlockIndex(bool fAllowNew)
             block.nNonce   = 0;
         }
 
+		CBigNum bnTarget;
+        bnTarget.SetCompact(block.nBits);
+
+        while (block.GetHash() > bnTarget.getuint256())
+        {
+            if (fRequestShutdown)
+                return false;
+            if (block.nNonce % 1048576 == 0)
+                printf("n=%dM hash=%s\n", block.nNonce / 1048576,
+                       block.GetHash().ToString().c_str());
+            block.nNonce++;
+        }
+     
+        printf("Peershares Genesis Block Found:\n");
+        printf("genesis hash=%s\n", block.GetHash().ToString().c_str());
+        printf("merkle root=%s\n", block.hashMerkleRoot.ToString().c_str());
+        block.print();
+     
+        printf("End Peershares Genesis Block\n");
+		
         //// debug print
         printf("%s\n", block.GetHash().ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
