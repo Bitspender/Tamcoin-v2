@@ -2608,13 +2608,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>指定配置文件 (默认为 ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>指定配置文件 (默认为 Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 ppcoind.pid)
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 Tamcoind.pid)
 </translation>
     </message>
     <message>

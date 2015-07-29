@@ -2598,13 +2598,13 @@ Ini berarti diperlukan biaya minimal %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>File konfigurasi ditentukan (default: ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>File konfigurasi ditentukan (default: Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Menentukan file pid (default: ppcoind.pid)</translation>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>Menentukan file pid (default: Tamcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>

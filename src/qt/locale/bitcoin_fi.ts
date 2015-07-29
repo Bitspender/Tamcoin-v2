@@ -2595,12 +2595,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
         <translation>Määritä pid-tiedosto (oletus: TAMoin.pid)</translation>
     </message>
     <message>

@@ -9,7 +9,7 @@ Thomas Bernard.
 
 
 Mac OS X Mavericks build instructions
-How to build ppcoind and Tamcoin-Qt on 10.9
+How to build Tamcoind and Tamcoin-Qt on 10.9
 
 
 Prerequisites
@@ -75,7 +75,7 @@ sudo cp -r boost_1_55_0/boost/ /usr/include/boost/
 git clone https://github.com/Tamcoin/Tamcoin.git
 
 
-Building ppcoind
+Building Tamcoind
 
 1.  Run the makefile
 

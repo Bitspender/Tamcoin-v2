@@ -25,7 +25,7 @@ static const int Tamcoin_VERSION =
                          +     100 * Tamcoin_VERSION_REVISION
                          +       1 * Tamcoin_VERSION_BUILD;
 
-// ppcoin version - reference for code tracking
+// Tamcoin version - reference for code tracking
 #define TAMOIN_VERSION_MAJOR       0
 #define TAMOIN_VERSION_MINOR       4
 #define TAMOIN_VERSION_REVISION    0

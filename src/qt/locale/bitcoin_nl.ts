@@ -1476,7 +1476,7 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
         <source>Tamcoin (TAMoin) debug window</source>
-        <translation>Tamcoin (PPcoin) debug scherm</translation>
+        <translation>Tamcoin (Tamcoin) debug scherm</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2609,13 +2609,13 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>Configuratiebestand specificeren (standaard: ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>Configuratiebestand specificeren (standaard: Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: ppcoind.pid)
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: Tamcoind.pid)
 </translation>
     </message>
     <message>

@@ -2618,12 +2618,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>Указать файл конфигурации системы (default: ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>Указать файл конфигурации системы (default: Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
         <translation>Указать pid-файл (по умолчанию: TAMoin.pid)</translation>
     </message>
     <message>

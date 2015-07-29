@@ -196,8 +196,8 @@ bool AppInit2(int argc, char* argv[])
             "  Tamcoind [options] help              \t\t  " + _("List commands") + "\n" +
             "  Tamcoind [options] help <command>    \t\t  " + _("Get help for a command") + "\n" +
           _("Options:") + "\n" +
-            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: ppcoin.conf)") + "\n" +
-            "  -pid=<file>      \t\t  " + _("Specify pid file (default: ppcoind.pid)") + "\n" +
+            "  -conf=<file>     \t\t  " + _("Specify configuration file (default: Tamcoin.conf)") + "\n" +
+            "  -pid=<file>      \t\t  " + _("Specify pid file (default: Tamcoind.pid)") + "\n" +
             "  -gen             \t\t  " + _("Generate coins") + "\n" +
             "  -gen=0           \t\t  " + _("Don't generate coins") + "\n" +
             "  -min             \t\t  " + _("Start minimized") + "\n" +
@@ -315,7 +315,7 @@ bool AppInit2(int argc, char* argv[])
 
 #ifndef QT_GUI
     for (int i = 1; i < argc; i++)
-        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "ppcoin:", 7) == 0))
+        if (!IsSwitchChar(argv[i][0]) && !(strlen(argv[i]) >= 7 && strncasecmp(argv[i], "Tamcoin:", 7) == 0))
             fCommandLine = true;
 
     if (fCommandLine)
@@ -655,7 +655,7 @@ bool AppInit2(int argc, char* argv[])
             ThreadSafeMessageBox(_("Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."), _("Tamcoin"), wxOK | wxICON_EXCLAMATION | wxMODAL);
     }
 
-    if (mapArgs.count("-reservebalance")) // ppcoin: reserve balance amount
+    if (mapArgs.count("-reservebalance")) // Tamcoin: reserve balance amount
     {
         int64 nReserveBalance = 0;
         if (!ParseMoney(mapArgs["-reservebalance"], nReserveBalance))
@@ -665,7 +665,7 @@ bool AppInit2(int argc, char* argv[])
         }
     }
 
-    if (mapArgs.count("-checkpointkey")) // ppcoin: checkpoint master priv key
+    if (mapArgs.count("-checkpointkey")) // Tamcoin: checkpoint master priv key
     {
         if (!Checkpoints::SetCheckpointPrivKey(GetArg("-checkpointkey", "")))
             ThreadSafeMessageBox(_("Unable to sign checkpoint, wrong checkpointkey?\n"), _("Tamcoin"), wxOK | wxMODAL);

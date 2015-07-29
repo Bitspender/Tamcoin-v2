@@ -9,7 +9,7 @@ Thomas Bernard.
 
 
 Mac OS X Mountain Lion build instructions
-How to build ppcoind and Tamcoin-Qt on 10.8
+How to build Tamcoind and Tamcoin-Qt on 10.8
 
 
 Prerequisites
@@ -36,7 +36,7 @@ sudo ln -s /usr/local/lib /opt/local/lib/db48
 git clone https://github.com/Tamcoin/Tamcoin.git
 
 
-Building ppcoind
+Building Tamcoind
 
 1.  Run the makefile
 

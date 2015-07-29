@@ -16,9 +16,9 @@ There are three addresses with initial balance used in the test,
 
 * Run Tamcoin with a bat file that has the command
 ```
-D:\bin\Tamcoin-rc\Tamcoin-rc-qt -conf=D:\bin\Tamcoin-rc\ppcoin.conf
+D:\bin\Tamcoin-rc\Tamcoin-rc-qt -conf=D:\bin\Tamcoin-rc\Tamcoin.conf
 ```
-The config file D:\bin\Tamcoin-rc\ppcoin.conf contains
+The config file D:\bin\Tamcoin-rc\Tamcoin.conf contains
 ```
 datadir=D:\bin\Tamcoin-rc
 testnet=1

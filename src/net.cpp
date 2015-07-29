@@ -1137,15 +1137,15 @@ void MapPort(bool /* unused fMapPort */)
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
-// testnet dns seed begins with 't', all else are ppcoin dns seeds.
+// testnet dns seed begins with 't', all else are Tamcoin dns seeds.
 static const char *strDNSSeed[][2] = {
-    {"seed", "seed.ppcoin.net"},
-    {"seedppc", "seedppc.ppcoin.net"},
+    {"seed", "seed.Tamcoin.net"},
+    {"seedppc", "seedppc.Tamcoin.net"},
     {"7server", "ppcseed.ns.7server.net"},
     {"altcointech", "dnsseed.ppc.altcointech.net"},
     {"diandianbi", "seed.diandianbi.org"},
-    {"tnseed", "tnseed.ppcoin.net"},
-    {"tnseedppc", "tnseedppc.ppcoin.net"},
+    {"tnseed", "tnseed.Tamcoin.net"},
+    {"tnseedppc", "tnseedppc.Tamcoin.net"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1172,7 +1172,7 @@ void ThreadDNSAddressSeed2(void* parg)
     printf("ThreadDNSAddressSeed started\n");
     int found = 0;
 
-    if (true /*!fTestNet*/)  // ppcoin enables dns seeding with testnet too
+    if (true /*!fTestNet*/)  // Tamcoin enables dns seeding with testnet too
     {
         printf("Loading addresses from DNS seeds (could take a while)\n");
 
@@ -1620,7 +1620,7 @@ void ThreadMessageHandler2(void* parg)
     }
 }
 
-// ppcoin: stake minter thread
+// Tamcoin: stake minter thread
 void static ThreadStakeMinter(void* parg)
 {
     printf("ThreadStakeMinter started\n");
@@ -1848,7 +1848,7 @@ void StartNode(void* parg)
     // Get addresses from IRC and advertise ours
     // if (!CreateThread(ThreadIRCSeed, NULL))
     //     printf("Error: CreateThread(ThreadIRCSeed) failed\n");
-    // IRC disabled with ppcoin
+    // IRC disabled with Tamcoin
     printf("IRC seeding/communication disabled\n");
 
     // Send and receive from sockets, accept connections
@@ -1874,7 +1874,7 @@ void StartNode(void* parg)
     // Generate coins in the background
     GenerateBitcoins(GetBoolArg("-gen", false), pwalletMain);
 
-    // ppcoin: mint proof-of-stake blocks in the background
+    // Tamcoin: mint proof-of-stake blocks in the background
     if (!CreateThread(ThreadStakeMinter, pwalletMain))
         printf("Error: CreateThread(ThreadStakeMinter) failed\n");
 }

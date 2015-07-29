@@ -2610,13 +2610,13 @@ Dette betyr at et gebyr på minst %2 er påkrevd.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: ppcoind.pid)</translation>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: Tamcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>

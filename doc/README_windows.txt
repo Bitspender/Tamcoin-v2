@@ -14,7 +14,7 @@ Tamcoin is a Tamcoin network-compatible, community-developed wallet client.
 
 The project has been designed to provide people with a
 stable, secure, and feature-rich alternative to the Tamcoin reference
-wallet (http://github.com/ppcoin/ppcoin). 
+wallet (http://github.com/Tamcoin/Tamcoin). 
 
 To help faciliate broad community cooperation, a number of trusted 
 Tamcoin/Peershares community leaders have write permissions to the project's 
@@ -65,7 +65,7 @@ the developers and supporters of the following projects:
 	of Bitcoin, innovations such as proof-of-stake help further advance 
 	the field of crypto-currency.
 
-	http://github.com/ppcoin/ppcoin
+	http://github.com/Tamcoin/Tamcoin
 
 
 	------------------

@@ -777,7 +777,7 @@ void FormatException(char* pszMessage, std::exception* pex, const char* pszThrea
     pszModule[0] = '\0';
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "ppcoin";
+    const char* pszModule = "Tamcoin";
 #endif
     if (pex)
         snprintf(pszMessage, 1000,
@@ -854,7 +854,7 @@ boost::filesystem::path GetDefaultDataDir()
 
     // Windows: C:\Documents and Settings\username\Application Data\TAMoin
     // Mac: ~/Library/Application Support/TAMoin
-    // Unix: ~/.ppcoin
+    // Unix: ~/.Tamcoin
 #ifdef WIN32
     // Windows
     return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "TAMoin";
@@ -872,7 +872,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "TAMoin";
 #else
     // Unix
-    return pathRet / ".ppcoin";
+    return pathRet / ".Tamcoin";
 #endif
 #endif
 }
@@ -916,7 +916,7 @@ boost::filesystem::path GetConfigFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathConfigFile(GetArg("-conf", "ppcoin.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "Tamcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -952,7 +952,7 @@ boost::filesystem::path GetPidFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathPidFile(GetArg("-pid", "ppcoind.pid"));
+    fs::path pathPidFile(GetArg("-pid", "Tamcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1207,7 +1207,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "ppcoin.desktop";
+    return GetAutostartDir() / "Tamcoin.desktop";
 }
 
 bool GetStartOnSystemStartup()

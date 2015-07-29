@@ -22,7 +22,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
         <source>Copyright © 2011-2014 TAMoin Developers</source>
-        <translation>Copyright © 2011-2014 Die PPcoin-Entwickler</translation>
+        <translation>Copyright © 2011-2014 Die Tamcoin-Entwickler</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -2606,13 +2606,13 @@ Das bedeutet, dass eine Gebühr von mindestens %2 erforderlich ist.</translation
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>Konfigurations-Datei angeben (Standard: ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>Konfigurations-Datei angeben (Standard: Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>PID-Datei angeben (Standard: ppcoind.pid)</translation>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>PID-Datei angeben (Standard: Tamcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>

@@ -2617,13 +2617,13 @@ Cette étiquette devient rouge si la priorité est inférieure à &quot;moyenne&
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: ppcoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : ppcoin.conf)</translation>
+        <source>Specify configuration file (default: Tamcoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : Tamcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : ppcoind.pid)</translation>
+        <source>Specify pid file (default: Tamcoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : Tamcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
