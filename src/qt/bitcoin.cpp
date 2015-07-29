@@ -1,6 +1,6 @@
 /*
  * W.J. van der Laan 2011-2012
- * The PPCoin Developers 2013
+ * The TAMoin Developers 2013
  */
 #include "bitcoingui.h"
 #include "clientmodel.h"
@@ -125,7 +125,7 @@ std::string _(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occured. Peerunity can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occured. Tamcoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -178,12 +178,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("PPCoin");
+    app.setOrganizationName("TAMoin");
     app.setOrganizationDomain("ppcoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("PPCoin-Qt-testnet");
+        app.setApplicationName("TAMoin-Qt-testnet");
     else
-        app.setApplicationName("PPCoin-Qt");
+        app.setApplicationName("TAMoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

@@ -1,5 +1,5 @@
 # Copyright (c) 2009-2010 Satoshi Nakamoto
-# Copyright (c) 2012 The PPCoin developers
+# Copyright (c) 2012 The TAMoin developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,10 +51,10 @@
 #     mkdir miniupnpc
 #     cp *.h miniupnpc/
 #
-# - Build peerunityd.exe
+# - Build Tamcoind.exe
 #   in MinGW MSYS
-#     cd peerunity/src
-#     make peerunityd.exe -f makefile.mingw USE_UPNP=1
+#     cd Tamcoin/src
+#     make Tamcoind.exe -f makefile.mingw USE_UPNP=1
 #
 #
 
@@ -122,12 +122,12 @@ OBJS= \
     obj/kernel.o
 
 
-all: peerunityd.exe
+all: Tamcoind.exe
 
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-peerunityd.exe: $(OBJS:obj/%=obj/%)
+Tamcoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -135,11 +135,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_peerunity.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_Tamcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
 
 clean:
-	-del /Q peerunityd test_peerunity
+	-del /Q Tamcoind test_Tamcoin
 	-del /Q obj\*
 	-del /Q obj-test\*
 	-del /Q build.h

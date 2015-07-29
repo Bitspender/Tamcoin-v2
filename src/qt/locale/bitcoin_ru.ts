@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Peerunity</source>
-        <translation>О Peerunity</translation>
+        <source>About Tamcoin</source>
+        <translation>О Tamcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tamcoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tamcoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Peerunity Developers</source>
-        <translation>Право собственности © 2014 Peerunity Developers</translation>
+        <source>Copyright © 2014 Tamcoin Developers</source>
+        <translation>Право собственности © 2014 Tamcoin Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 PPCoin Developers</source>
-        <translation>Право собственности © 2011-2014 PPCoin Developers</translation>
+        <source>Copyright © 2011-2014 TAMoin Developers</source>
+        <translation>Право собственности © 2011-2014 TAMoin Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Это адреса Peercoin для получения платежей. Вы можете дать другой адрес для каждого отправителя, чтобы иметь возможность отслеживать, кто платит вам. </translation>
+        <source>These are your Tamcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Это адреса Tamcoin для получения платежей. Вы можете дать другой адрес для каждого отправителя, чтобы иметь возможность отслеживать, кто платит вам. </translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TamcoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ВНИМАНИЕ:  Если вы зашифровали свой кошелек и потеряли пароль, вы &lt;b&gt;ВСЕ ВАШИ PEERCOIN&lt;/b&gt;!
+        <translation>ВНИМАНИЕ:  Если вы зашифровали свой кошелек и потеряли пароль, вы &lt;b&gt;ВСЕ ВАШИ Tamcoin&lt;/b&gt;!
 Вы уверены, что хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Peerunity сейчас закроется для завершения процесса шифрования. Помните, что шифрование не может полностью защитить ваш кошелек от кражи Peercoin, так как ваш компьютер может быть заражен вредоносными программами.  </translation>
+        <source>Tamcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Tamcoins from being stolen by malware infecting your computer.</source>
+        <translation>Tamcoin сейчас закроется для завершения процесса шифрования. Помните, что шифрование не может полностью защитить ваш кошелек от кражи Tamcoin, так как ваш компьютер может быть заражен вредоносными программами.  </translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Peercoin</source>
-        <translation>Показать информацию о Peercoin</translation>
+        <source>Show information about Tamcoin</source>
+        <translation>Показать информацию о Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,39 +497,39 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Peerunity Wallet</source>
-        <translation>Кошелек Peerunity </translation>
+        <source>Tamcoin Wallet</source>
+        <translation>Кошелек Tamcoin </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Отправить монеты на адрес Peercoin </translation>
+        <source>Send coins to a Tamcoin address</source>
+        <translation>Отправить монеты на адрес Tamcoin </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Peerunity</source>
-        <translation>О Peerunity </translation>
+        <source>&amp;About Tamcoin</source>
+        <translation>О Tamcoin </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Peerunity</source>
-        <translation>Изменить параметры конфигурации Peerunity </translation>
+        <source>Modify configuration options for Tamcoin</source>
+        <translation>Изменить параметры конфигурации Tamcoin </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Peerunity</source>
-        <translation>Скрыть/Показать Peerunity</translation>
+        <source>Show/Hide &amp;Tamcoin</source>
+        <translation>Скрыть/Показать Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Peerunity window</source>
-        <translation>Скрыть или показать окно программы Peerunity
+        <source>Show or hide the Tamcoin window</source>
+        <translation>Скрыть или показать окно программы Tamcoin
 </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Peerunity client</source>
-        <translation>Клиент Peerunity </translation>
+        <source>Tamcoin client</source>
+        <translation>Клиент Tamcoin </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -538,7 +538,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Peercoin network</source>
+        <source>%n active connection(s) to Tamcoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -685,8 +685,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Peerunity can no longer continue safely and will quit.</source>
-        <translation>Произошла фатальная ошибка. Peerunity не может продолжать работать нормально и закрывается. </translation>
+        <source>A fatal error occured. Tamcoin can no longer continue safely and will quit.</source>
+        <translation>Произошла фатальная ошибка. Tamcoin не может продолжать работать нормально и закрывается. </translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Peerunity addresses in the transaction list</source>
-        <translation>Отображать адреса Peerunity в списке транзакций</translation>
+        <source>Whether to show Tamcoin addresses in the transaction list</source>
+        <translation>Отображать адреса Tamcoin в списке транзакций</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1052,8 +1052,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>Введенный адрес &quot;%1&quot; не является допустимым адресом для Peercoin.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Tamcoin address.</source>
+        <translation>Введенный адрес &quot;%1&quot; не является допустимым адресом для Tamcoin.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1095,8 +1095,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Peerunity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открывать порт клиента Peerunity на роутере. Это будет работать, только если роутер поддерживает UPnP и он включен.</translation>
+        <source>Automatically open the Tamcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открывать порт клиента Tamcoin на роутере. Это будет работать, только если роутер поддерживает UPnP и он включен.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1106,7 +1106,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Подключаться к сети PPCoin через SOCKS4 прокси (например, при использовании Tor)</translation>
+        <translation>Подключаться к сети TAMoin через SOCKS4 прокси (например, при использовании Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1130,8 +1130,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation>Обязательные операционные платы за каждый килобайт перечислены. Большинство операций имеют меньше 1 килобайта и оплачиваются в размере 0.01 PPC. Замечание: размер перевода может увеличиваться в зависимости от количества входных операций, добавляемых вместе, чтобы финансировать оплату. </translation>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 TAM fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation>Обязательные операционные платы за каждый килобайт перечислены. Большинство операций имеют меньше 1 килобайта и оплачиваются в размере 0.01 TAM. Замечание: размер перевода может увеличиваться в зависимости от количества входных операций, добавляемых вместе, чтобы финансировать оплату. </translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
@@ -1150,13 +1150,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Peerunity on window system startup</source>
-        <translation>Запускать Peerunity при запуске компьютера</translation>
+        <source>&amp;Start Tamcoin on window system startup</source>
+        <translation>Запускать Tamcoin при запуске компьютера</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Peerunity after the computer is turned on</source>
-        <translation>Автоматически запускать Peerunity после включения компьютера</translation>
+        <source>Automatically start Tamcoin after the computer is turned on</source>
+        <translation>Автоматически запускать Tamcoin после включения компьютера</translation>
     </message>
 </context>
 <context>
@@ -1440,8 +1440,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PPC</source>
-        <translation>PPC</translation>
+        <source>TAM</source>
+        <translation>TAM</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1483,8 +1483,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Peercoin (PPCoin) debug window</source>
-        <translation>Окно отладки Peercoin (PPCoin)</translation>
+        <source>Tamcoin (TAMoin) debug window</source>
+        <translation>Окно отладки Tamcoin (TAMoin)</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1575,8 +1575,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Peerunity RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Добро пожаловать в консоль Peerunity RPC. &lt;br&gt;Используйте стрелки вверх и вниз, для перемещения по истории, и &lt;b&gt;Ctrl-L&lt;/b&gt; чтобы очистить экран.&lt;br&gt;Введите &lt;b&gt;help&lt;/b&gt; для обзора доступных команд.</translation>
+        <source>Welcome to the Tamcoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Добро пожаловать в консоль Tamcoin RPC. &lt;br&gt;Используйте стрелки вверх и вниз, для перемещения по истории, и &lt;b&gt;Ctrl-L&lt;/b&gt; чтобы очистить экран.&lt;br&gt;Введите &lt;b&gt;help&lt;/b&gt; для обзора доступных команд.</translation>
     </message>
 </context>
 <context>
@@ -1809,8 +1809,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Введите адрес Peercoin </translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Введите адрес Tamcoin </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1898,8 +1898,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Введите адрес Peercoin </translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Введите адрес Tamcoin </translation>
     </message>
 </context>
 <context>
@@ -1963,8 +1963,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Подписать сообщение, чтобы доказать, что вы владелец этого Peercoin адреса </translation>
+        <source>Sign the message to prove you own this Tamcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать, что вы владелец этого Tamcoin адреса </translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1999,8 +1999,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Проверьте сообщение, чтобы гарантировать, что его пописали заданным Peercoin адресом</translation>
+        <source>Verify the message to ensure it was signed with the specified Tamcoin address</source>
+        <translation>Проверьте сообщение, чтобы гарантировать, что его пописали заданным Tamcoin адресом</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2025,8 +2025,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Введите адрес Peercoin </translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Введите адрес Tamcoin </translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2587,18 +2587,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Peerunity is probably already running.</source>
-        <translation>Невозможно связаться с портом %d на компьютере. Peerunity, вероятно, уже запущена. </translation>
+        <source>Unable to bind to port %d on this computer.  Tamcoin is probably already running.</source>
+        <translation>Невозможно связаться с портом %d на компьютере. Tamcoin, вероятно, уже запущена. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Peerunity version</source>
-        <translation>Версия Peerunity</translation>
+        <source>Tamcoin version</source>
+        <translation>Версия Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or peerunityd</source>
-        <translation>Отправить команду на -server или peerunityd</translation>
+        <source>Send command to -server or Tamcoind</source>
+        <translation>Отправить команду на -server или Tamcoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2624,7 +2624,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
         <source>Specify pid file (default: ppcoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: PPCoin.pid)</translation>
+        <translation>Указать pid-файл (по умолчанию: TAMoin.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
@@ -2879,30 +2879,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Peerunity is probably already running.</source>
-        <translation>Невозможно получить блокировку на каталог данных %s. Peerunity вероятно уже запущена. </translation>
+        <source>Cannot obtain a lock on data directory %s.  Tamcoin is probably already running.</source>
+        <translation>Невозможно получить блокировку на каталог данных %s. Tamcoin вероятно уже запущена. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Peerunity</source>
-        <translation>Peerunity</translation>
+        <source>Tamcoin</source>
+        <translation>Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peerunity</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новую версию Peerunity. </translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tamcoin</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новую версию Tamcoin. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Peerunity to complete</source>
-        <translation>Кошелек должен быть переписан: перезапустите Peerunity, чтобы завершить процесс</translation>
+        <source>Wallet needed to be rewritten: restart Tamcoin to complete</source>
+        <translation>Кошелек должен быть переписан: перезапустите Tamcoin, чтобы завершить процесс</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=Tamcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2911,8 +2911,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
-        <translation>Предупреждение: Пожалуйста, проверяйте правильно ли выставлено время и дата на компьютере. Если часы будут идти неправильно, Peerunity не будет работать должным образом. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Tamcoin will not work properly.</source>
+        <translation>Предупреждение: Пожалуйста, проверяйте правильно ли выставлено время и дата на компьютере. Если часы будут идти неправильно, Tamcoin не будет работать должным образом. </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

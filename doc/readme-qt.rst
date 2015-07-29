@@ -1,4 +1,4 @@
-Peercoin-qt: Qt4 GUI for Peercoin
+Tamcoin-qt: Qt4 GUI for Tamcoin
 ===============================
 
 Build instructions

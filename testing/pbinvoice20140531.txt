@@ -1,7 +1,7 @@
-Team comms (IRC, CC, Skype, etc.) re: Peerunity testing
-Peerunity Gitian process pre-merge testing
-Peerunity Gitian pre-merge build output regression testing
-Peerunity Gitian compilation and testing w/ version fixes
-Peerunity issues tracking
-Peerunity coin control testing
-Peerunity regression testing
+Team comms (IRC, CC, Skype, etc.) re: Tamcoin testing
+Tamcoin Gitian process pre-merge testing
+Tamcoin Gitian pre-merge build output regression testing
+Tamcoin Gitian compilation and testing w/ version fixes
+Tamcoin issues tracking
+Tamcoin coin control testing
+Tamcoin regression testing

@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2014 The Peerunity developers
+// Copyright (c) 2014 The Tamcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <string>
@@ -7,10 +7,10 @@
 #include "version.h"
 
 // Name of client reported in the 'version' message. Report the same name
-// for both peerunityd and peerunity(-qt), to make it harder for attackers to
+// for both Tamcoind and Tamcoin(-qt), to make it harder for attackers to
 // target servers or GUI users specifically.
 
-// For the current run of Peerunity releases, the client name should be selected from
+// For the current run of Tamcoin releases, the client name should be selected from
 // the list of ancient coinage, from oldest known to more recent. 
 // You can find ideas for future client names, here: http://en.wikipedia.org/wiki/List_of_historical_currencies
 
@@ -55,9 +55,9 @@ const std::string CLIENT_NAME("Satoshi");
 
 #ifndef BUILD_DESC
 #    ifdef GIT_COMMIT_ID
-#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(PEERUNITY_VERSION_MAJOR, PEERUNITY_VERSION_MINOR, PEERUNITY_VERSION_REVISION, PEERUNITY_VERSION_BUILD, GIT_COMMIT_ID)
+#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(Tamcoin_VERSION_MAJOR, Tamcoin_VERSION_MINOR, Tamcoin_VERSION_REVISION, Tamcoin_VERSION_BUILD, GIT_COMMIT_ID)
 #    else
-#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(PEERUNITY_VERSION_MAJOR, PEERUNITY_VERSION_MINOR, PEERUNITY_VERSION_REVISION, PEERUNITY_VERSION_BUILD)
+#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(Tamcoin_VERSION_MAJOR, Tamcoin_VERSION_MINOR, Tamcoin_VERSION_REVISION, Tamcoin_VERSION_BUILD)
 #    endif
 #endif
 

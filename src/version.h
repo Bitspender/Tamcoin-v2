@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2012-2013 The PPCoin developers
+// Copyright (c) 2012-2013 The TAMoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_VERSION_H
@@ -13,29 +13,29 @@
 
 // These need to be macro's, as version.cpp's voodoo requires it
 
-// peerunity version - intended for display purpose only
-#define PEERUNITY_VERSION_MAJOR       0
-#define PEERUNITY_VERSION_MINOR       1
-#define PEERUNITY_VERSION_REVISION    2
-#define PEERUNITY_VERSION_BUILD       0
+// Tamcoin version - intended for display purpose only
+#define Tamcoin_VERSION_MAJOR       0
+#define Tamcoin_VERSION_MINOR       1
+#define Tamcoin_VERSION_REVISION    2
+#define Tamcoin_VERSION_BUILD       0
 
-static const int PEERUNITY_VERSION =
-                           1000000 * PEERUNITY_VERSION_MAJOR
-                         +   10000 * PEERUNITY_VERSION_MINOR
-                         +     100 * PEERUNITY_VERSION_REVISION
-                         +       1 * PEERUNITY_VERSION_BUILD;
+static const int Tamcoin_VERSION =
+                           1000000 * Tamcoin_VERSION_MAJOR
+                         +   10000 * Tamcoin_VERSION_MINOR
+                         +     100 * Tamcoin_VERSION_REVISION
+                         +       1 * Tamcoin_VERSION_BUILD;
 
 // ppcoin version - reference for code tracking
-#define PPCOIN_VERSION_MAJOR       0
-#define PPCOIN_VERSION_MINOR       4
-#define PPCOIN_VERSION_REVISION    0
-#define PPCOIN_VERSION_BUILD       0
+#define TAMOIN_VERSION_MAJOR       0
+#define TAMOIN_VERSION_MINOR       4
+#define TAMOIN_VERSION_REVISION    0
+#define TAMOIN_VERSION_BUILD       0
 
-static const int PPCOIN_VERSION =
-                           1000000 * PPCOIN_VERSION_MAJOR
-                         +   10000 * PPCOIN_VERSION_MINOR
-                         +     100 * PPCOIN_VERSION_REVISION
-                         +       1 * PPCOIN_VERSION_BUILD;
+static const int TAMOIN_VERSION =
+                           1000000 * TAMOIN_VERSION_MAJOR
+                         +   10000 * TAMOIN_VERSION_MINOR
+                         +     100 * TAMOIN_VERSION_REVISION
+                         +       1 * TAMOIN_VERSION_BUILD;
 
 // bitcoin version - reference for code tracking
 #define BITCOIN_VERSION_MAJOR       0

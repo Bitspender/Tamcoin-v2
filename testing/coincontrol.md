@@ -1,26 +1,26 @@
 Test Report: Coin Control
 ===================================================
 
-This report covers test results of the coin control feature of Peerunity v0.4.0 released [here](http://www.peercointalk.org/index.php?topic=2648.msg23426#msg23426). The tests are done on windows 7 professional 32bit. Peerunity distribution peerunity-rc.zip is downloaded and unzip'ped in D:\bin
+This report covers test results of the coin control feature of Tamcoin v0.4.0 released [here](http://www.Tamcointalk.org/index.php?topic=2648.msg23426#msg23426). The tests are done on windows 7 professional 32bit. Tamcoin distribution Tamcoin-rc.zip is downloaded and unzip'ped in D:\bin
 
 ## Basic features
 
-The test method used is basically clicking/typing on the GUI of Peerunity running on Peercoin testnet, and comparing the results with those specified in [_Yet another Coin Control Release_ by cozz](https://bitcointalk.org/index.php?topic=144331.0).
+The test method used is basically clicking/typing on the GUI of Tamcoin running on Tamcoin testnet, and comparing the results with those specified in [_Yet another Coin Control Release_ by cozz](https://bitcointalk.org/index.php?topic=144331.0).
 
 There are three addresses with initial balance used in the test, 
-* test1  mkLh7wYGYQiKVm8tLwCs9LusKF2y1gffm9  8.01PPC 
-* test2  n2LzA1UH46QZPdCGvN2NorPeqg1BbTuw4g  2PPC
-* test3  mpRAV4VSsxmKh5nRpDuQPquhdHPKu4xUuS  7PPC
+* test1  mkLh7wYGYQiKVm8tLwCs9LusKF2y1gffm9  8.01TAM 
+* test2  n2LzA1UH46QZPdCGvN2NorPeqg1BbTuw4g  2TAM
+* test3  mpRAV4VSsxmKh5nRpDuQPquhdHPKu4xUuS  7TAM
 
-### start peerunity
+### start Tamcoin
 
-* Run peerunity with a bat file that has the command
+* Run Tamcoin with a bat file that has the command
 ```
-D:\bin\peerunity-rc\peerunity-rc-qt -conf=D:\bin\peerunity-rc\ppcoin.conf
+D:\bin\Tamcoin-rc\Tamcoin-rc-qt -conf=D:\bin\Tamcoin-rc\ppcoin.conf
 ```
-The config file D:\bin\peerunity-rc\ppcoin.conf contains
+The config file D:\bin\Tamcoin-rc\ppcoin.conf contains
 ```
-datadir=D:\bin\peerunity-rc
+datadir=D:\bin\Tamcoin-rc
 testnet=1
 server=1
 rpcuser=mh
@@ -31,8 +31,8 @@ daemon=1
 ```
 (Note for future upgrade: with 0.9.1 btc wallet, datadir must be specified in the command line, not in the config file.)
 
-* After peerunity-rc is started, in the debug->Information the "On testnet" box is in checked as expected. 
-* peerunit-rc successfully syncs with the testnet. "D:\bin\peerunity-rc\testnet" subdirectory is created with downloaded block chain.
+* After Tamcoin-rc is started, in the debug->Information the "On testnet" box is in checked as expected. 
+* peerunit-rc successfully syncs with the testnet. "D:\bin\Tamcoin-rc\testnet" subdirectory is created with downloaded block chain.
 
 ### start coin control
 
@@ -50,15 +50,15 @@ daemon=1
 
 ### _Coin Control Dialog_ 
 
-* Send 1 PPC from test2 to test1 to 1) create change 2) create two outputs in test1.  
-  Results: test2 has 0.99PPC left and test1 has 9.01PPC, as shown by coin control window. (A strict verification can be done using a block explorer. txid 94686d535fae9fc015b7e3a270123f437066c60f3c63b658774ffb60e530ee3a )  
+* Send 1 TAM from test2 to test1 to 1) create change 2) create two outputs in test1.  
+  Results: test2 has 0.99TAM left and test1 has 9.01TAM, as shown by coin control window. (A strict verification can be done using a block explorer. txid 94686d535fae9fc015b7e3a270123f437066c60f3c63b658774ffb60e530ee3a )  
   This confirms:
 
 >  * select outputs by checkbox -> only the checked outputs are used when sending a transaction  
 >    if none are selected -> coin control inactive (just as normal)
 
-* Send 5 PPC from test1 to test2 using test3 as the custom change address.  
-  Results: test1 has 1 PPC test2 has 5.99 PPC test3 has 10 PPC, as expected. The custom change address function is verified. txid eed4baecbcaedcf442647103fc8a18812dce2b4c852ee447b473f157c41cb837
+* Send 5 TAM from test1 to test2 using test3 as the custom change address.  
+  Results: test1 has 1 TAM test2 has 5.99 TAM test3 has 10 TAM, as expected. The custom change address function is verified. txid eed4baecbcaedcf442647103fc8a18812dce2b4c852ee447b473f157c41cb837
 
 
 * These are all confirmed:
@@ -80,7 +80,7 @@ Note for the last item: the tooltip not only shows in list mode but also in tree
 >  * Context menu  
 >    Copy to clipboard (amount,label,address,transaction id,lock,unlock)
 
-* These labels are tested **except that priorities are not verified because I do not know how priority levels for Peercoins and Peershares are defined**. 
+* These labels are tested **except that priorities are not verified because I do not know how priority levels for Tamcoins and Peershares are defined**. 
 
 >  * Labels at the top  
 >    Quantity: number of selected outputs  
@@ -92,7 +92,7 @@ Note for the last item: the tooltip not only shows in list mode but also in tree
 >    Low Output: "yes" if any recipient receives an amount < 0.01BTC  
 >    Change: shows the change you get back
 
-Low Output is yes when the amount is less than 0.01 PPC.
+Low Output is yes when the amount is less than 0.01 TAM.
 
 * **Copy amount to clipboard by direct right clicking the _labels_ does not work. However right clicking the _values_ works.**
 
@@ -122,7 +122,7 @@ Low Output is yes when the amount is less than 0.01 PPC.
 > Due to the inner workings of bitcoin the size per output is actually +/- 1 byte. Meaning the shown calculation is not always 100% correct.  
 > If you send exactly "selected minus fee" then you will not have change (1 output only). The transaction will then be 34 bytes smaller as what was calculated before.
 
-* Peercoin has a fixed transaction fee so this part below about free transaction calculation is irrelevant hence not tested. 
+* Tamcoin has a fixed transaction fee so this part below about free transaction calculation is irrelevant hence not tested. 
 
 > **Free Transactions**  
 > In order to be able to send a free transaction, you need to follow the rules:  
@@ -143,10 +143,10 @@ Low Output is yes when the amount is less than 0.01 PPC.
 > graying-out (checkbox can't be ticked) and setting a red background of immature PoS coins in the Coin Control view.
 
 ## Summary
-The coin control implmented in peerunity-rc passed tests of all main function items [specified by cozz](https://bitcointalk.org/index.php?topic=144331.0). One minor item that did not pass, and two minor untested items, are marked in bold above.
+The coin control implmented in Tamcoin-rc passed tests of all main function items [specified by cozz](https://bitcointalk.org/index.php?topic=144331.0). One minor item that did not pass, and two minor untested items, are marked in bold above.
 
 ## History
-Test reprt for an early build of peerunity_coin-control is [here](http://www.peercointalk.org/index.php?topic=2699.msg23386#msg23386).
+Test reprt for an early build of Tamcoin_coin-control is [here](http://www.Tamcointalk.org/index.php?topic=2699.msg23386#msg23386).
 
 mhps
 2014-04-29

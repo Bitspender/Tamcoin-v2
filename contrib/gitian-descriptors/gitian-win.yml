@@ -1,5 +1,5 @@
 ---
-name: "peerunity"
+name: "Tamcoin"
 suites:
 - "precise"
 architectures:
@@ -14,15 +14,15 @@ packages:
 
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/peerunity/peerunity.git"
-  "dir": "peerunity"
+- "url": "https://github.com/Tamcoin/Tamcoin.git"
+  "dir": "Tamcoin"
 files:
 - "qt-win32-4.8.5-gitian-r3.zip"
 - "qt-win64-4.8.5-gitian-r3.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "boost-win64-1.55.0-gitian-r6.zip"
-- "peerunity-deps-win32-gitian-r12.zip"
-- "peerunity-deps-win64-gitian-r12.zip"
+- "Tamcoin-deps-win32-gitian-r12.zip"
+- "Tamcoin-deps-win64-gitian-r12.zip"
 script: |
   # Defines
   export TZ=UTC
@@ -46,44 +46,44 @@ script: |
     cd $STAGING
     unzip $INDIR/qt-win${BITS}-4.8.5-gitian-r3.zip
     unzip $INDIR/boost-win${BITS}-1.55.0-gitian-r6.zip
-    unzip $INDIR/peerunity-deps-win${BITS}-gitian-r12.zip
+    unzip $INDIR/Tamcoin-deps-win${BITS}-gitian-r12.zip
     if [ "$NEEDDIST" == "1" ]; then
       # Make source code archive which is architecture independent so it only needs to be done once
-      cd $HOME/build/peerunity
-      git archive --format=tar -o peerunity.tar HEAD
+      cd $HOME/build/Tamcoin
+      git archive --format=tar -o Tamcoin.tar HEAD
       cp doc/README_windows.txt $OUTDIR/readme.txt
       cp COPYING $OUTDIR/license.txt
-      DISTNAME=peerunity.tar
+      DISTNAME=Tamcoin.tar
       NEEDDIST=0
     fi
 
     # Build platform-dependent executables from source archive
     cd $BUILDDIR
-    cp -r $HOME/build/peerunity distsrc
+    cp -r $HOME/build/Tamcoin distsrc
     cd distsrc
 
     export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
     export FAKETIME=$REFERENCE_DATETIME
 
-    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=peerunity QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=peerunity" USE_BUILD_INFO=1
+    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=Tamcoin QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=Tamcoin" USE_BUILD_INFO=1
     make $MAKEOPTS
-    ${HOST}-strip release/peerunity.exe
-    cp -f release/peerunity.exe $BINDIR/
+    ${HOST}-strip release/Tamcoin.exe
+    cp -f release/Tamcoin.exe $BINDIR/
 
     cd src
-    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING peerunityd.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=peerunity"
-    ${HOST}-strip peerunityd.exe
-    cp -f peerunityd.exe $BINDIR/
+    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING Tamcoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=Tamcoin"
+    ${HOST}-strip Tamcoind.exe
+    cp -f Tamcoind.exe $BINDIR/
 
     cd $BUILDDIR
     mkdir nsis
     cd nsis
-    tar -xf $HOME/build/peerunity/$DISTNAME
+    tar -xf $HOME/build/Tamcoin/$DISTNAME
     mkdir release
-    cp $BINDIR/peerunity.exe release/
-    cp $BINDIR/peerunityd.exe release/
+    cp $BINDIR/Tamcoin.exe release/
+    cp $BINDIR/Tamcoind.exe release/
     makensis share/setup.nsi
-    cp share/Peerunity-*setup*.exe $BINDIR
+    cp share/Tamcoin-*setup*.exe $BINDIR
     unset LD_PRELOAD
     unset FAKETIME
   done # for BITS in
@@ -93,4 +93,4 @@ script: |
   rm -rf $TEMPDIR
   mkdir -p $TEMPDIR
   cd $TEMPDIR
-  tar -xvf $HOME/build/peerunity/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz
+  tar -xvf $HOME/build/Tamcoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz

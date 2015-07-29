@@ -1,5 +1,5 @@
 ---
-name: "peerunity-deps"
+name: "Tamcoin-deps"
 suites:
 - "precise"
 architectures:
@@ -124,5 +124,5 @@ script: |
     done
     #
     cd $INSTALLPREFIX
-    find include lib | sort | zip -X@ $OUTDIR/peerunity-deps-win$BITS-gitian-r12.zip
+    find include lib | sort | zip -X@ $OUTDIR/Tamcoin-deps-win$BITS-gitian-r12.zip
   done # for BITS in

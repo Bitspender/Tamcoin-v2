@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Peerunity</source>
-        <translation>Su Peerunity</translation>
+        <source>About Tamcoin</source>
+        <translation>Su Tamcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Peerunity&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tamcoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tamcoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 Peerunity Developers</source>
-        <translation>Copyright © 2014 Sviluppatori Peerunity</translation>
+        <source>Copyright © 2014 Tamcoin Developers</source>
+        <translation>Copyright © 2014 Sviluppatori Tamcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 PPCoin Developers</source>
-        <translation>Copyright © 2011-2014 Sviluppatori PPCoin </translation>
+        <source>Copyright © 2011-2014 TAMoin Developers</source>
+        <translation>Copyright © 2011-2014 Sviluppatori TAMoin </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Peercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi Peercoin per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
+        <source>These are your Tamcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Questi sono i tuoi indirizzi Tamcoin per la ricezione di pagamenti. Potresti dare un indirizzo differente ad ogni mittente per tenere traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -259,15 +259,15 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;util
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PEERCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TamcoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI PEERCOINS&lt;/b&gt;!
+        <translation>ATTENZIONE: Se cifri il tuo portafoglio e perdi la tua parola chiave, &lt;b&gt;PERDERAI TUTTI I TUOI TamcoinS&lt;/b&gt;!
 Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>Peerunity will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Peerunity si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi Peercoin da essere rubati con malware che ha infettato il tuo computer.</translation>
+        <source>Tamcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Tamcoins from being stolen by malware infecting your computer.</source>
+        <translation>Tamcoin si chiuderà adesso per finire il processo di criptazione. Ricorda che criptare il tuo portafoglio non può proteggere completamente i tuoi Tamcoin da essere rubati con malware che ha infettato il tuo computer.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about Peercoin</source>
-        <translation>Mostra informazioni su Peercoin</translation>
+        <source>Show information about Tamcoin</source>
+        <translation>Mostra informazioni su Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Peerunity Wallet</source>
-        <translation>Portafoglio Peerunity</translation>
+        <source>Tamcoin Wallet</source>
+        <translation>Portafoglio Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Invia monete ad un indirizzo Peercoin</translation>
+        <source>Send coins to a Tamcoin address</source>
+        <translation>Invia monete ad un indirizzo Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About Peerunity</source>
-        <translation>Su Peerunity</translation>
+        <source>&amp;About Tamcoin</source>
+        <translation>Su Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for Peerunity</source>
-        <translation>Modifica opzioni di configurazione per Peerunity</translation>
+        <source>Modify configuration options for Tamcoin</source>
+        <translation>Modifica opzioni di configurazione per Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;Peerunity</source>
-        <translation>Mostra/Nascondi Peerunity</translation>
+        <source>Show/Hide &amp;Tamcoin</source>
+        <translation>Mostra/Nascondi Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the Peerunity window</source>
-        <translation>Mostra o nascondi la finestra di Peerunity</translation>
+        <source>Show or hide the Tamcoin window</source>
+        <translation>Mostra o nascondi la finestra di Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>Peerunity client</source>
-        <translation>Client Peerunity</translation>
+        <source>Tamcoin client</source>
+        <translation>Client Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Sei sicuro che vuoi cifrare il tuo portafoglio?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to Peercoin network</source>
+        <source>%n active connection(s) to Tamcoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -679,8 +679,8 @@ Indirizzo: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Peerunity can no longer continue safely and will quit.</source>
-        <translation>Un errore fatale è occorso. Peerunity non può più continuare in modo sicuro e sarà terminato.</translation>
+        <source>A fatal error occured. Tamcoin can no longer continue safely and will quit.</source>
+        <translation>Un errore fatale è occorso. Tamcoin non può più continuare in modo sicuro e sarà terminato.</translation>
     </message>
 </context>
 <context>
@@ -978,8 +978,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show Peerunity addresses in the transaction list</source>
-        <translation>Se mostrare gli indirizzi Peerunity nella lista transazioni</translation>
+        <source>Whether to show Tamcoin addresses in the transaction list</source>
+        <translation>Se mostrare gli indirizzi Tamcoin nella lista transazioni</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1046,8 +1046,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo Peercoin valido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Tamcoin address.</source>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo Tamcoin valido.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1089,8 +1089,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the Peerunity client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aprire automaticamente la porta del client Peerunity nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
+        <source>Automatically open the Tamcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aprire automaticamente la porta del client Tamcoin nel router. Questo funziona solamente quando il supporto UPnp del router è abilitato.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1124,8 +1124,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="217"/>
-        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 PPC fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation>Tariffa di transazione della rete obbligatoria per kB trasferito. La maggior parte delle transazioni sono 1kB ed hanno una tariffa di 0.01 PPC. Nota: la dimensione del trasferimento aumenta a seconda del numero delle transazioni di input totali necessarie per finanziare il pagamento.</translation>
+        <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 TAM fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
+        <translation>Tariffa di transazione della rete obbligatoria per kB trasferito. La maggior parte delle transazioni sono 1kB ed hanno una tariffa di 0.01 TAM. Nota: la dimensione del trasferimento aumenta a seconda del numero delle transazioni di input totali necessarie per finanziare il pagamento.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
@@ -1144,13 +1144,13 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start Peerunity on window system startup</source>
-        <translation>Avvia Peerunity a finestra all&apos;avvio del sistema</translation>
+        <source>&amp;Start Tamcoin on window system startup</source>
+        <translation>Avvia Tamcoin a finestra all&apos;avvio del sistema</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start Peerunity after the computer is turned on</source>
-        <translation>Automaticamente avvia Peerunity dopo che il computer è stato acceso</translation>
+        <source>Automatically start Tamcoin after the computer is turned on</source>
+        <translation>Automaticamente avvia Tamcoin dopo che il computer è stato acceso</translation>
     </message>
 </context>
 <context>
@@ -1434,8 +1434,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
-        <source>PPC</source>
-        <translation>PPC</translation>
+        <source>TAM</source>
+        <translation>TAM</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1477,8 +1477,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Peercoin (PPCoin) debug window</source>
-        <translation>Finestra debug Peercoin (PPCoin)</translation>
+        <source>Tamcoin (TAMoin) debug window</source>
+        <translation>Finestra debug Tamcoin (TAMoin)</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1569,8 +1569,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Peerunity RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Benvenuto alla console Peerunity RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
+        <source>Welcome to the Tamcoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Benvenuto alla console Tamcoin RPC.&lt;br&gt;Utilizza le frecce in alto e in basso per navigare la cronologia, e &lt;b&gt;Ctrl-L&lt;/b&gt;per cancellare lo schermo.&lt;br&gt;Scrivi &lt;b&gt;aiuto&lt;/b&gt; per una panoramica dei comandi disponibili.</translation>
     </message>
 </context>
 <context>
@@ -1585,7 +1585,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
         <location filename="../sendcoinsdialog.cpp" line="202"/>
         <location filename="../sendcoinsdialog.cpp" line="207"/>
         <source>Send Coins</source>
-        <translation>Spedisci PPCoin</translation>
+        <translation>Spedisci TAMoin</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -1764,7 +1764,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Confirm send coins</source>
-        <translation>Conferma la spedizione di PPCoin</translation>
+        <translation>Conferma la spedizione di TAMoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="150"/>
@@ -1803,8 +1803,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Inserisci un indirzzo Peercoin</translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Inserisci un indirzzo Tamcoin</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1829,7 +1829,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="208"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i peercoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i Tamcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
 </context>
 <context>
@@ -1892,8 +1892,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Inserisci un indirzzo Peercoin</translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Inserisci un indirzzo Tamcoin</translation>
     </message>
 </context>
 <context>
@@ -1957,8 +1957,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Peercoin</translation>
+        <source>Sign the message to prove you own this Tamcoin address</source>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Tamcoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1993,8 +1993,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo Peercoin specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified Tamcoin address</source>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirzzo Tamcoin specificato</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2019,8 +2019,8 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Inserisci un indirzzo Peercoin</translation>
+        <source>Enter a Tamcoin address</source>
+        <translation>Inserisci un indirzzo Tamcoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2232,7 +2232,7 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="234"/>
         <source>Generated coins must wait 520 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Bisogna attendere 120 blocchi prima di spendere I PPCoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
+        <translation>Bisogna attendere 120 blocchi prima di spendere I TAMoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo. {520 ?}</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="236"/>
@@ -2578,18 +2578,18 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Peerunity is probably already running.</source>
-        <translation>Impossibile connettersi con la porta %d su questo computer. Peerunity è probabilmente già in funzione.</translation>
+        <source>Unable to bind to port %d on this computer.  Tamcoin is probably already running.</source>
+        <translation>Impossibile connettersi con la porta %d su questo computer. Tamcoin è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Peerunity version</source>
-        <translation>Versione Peerunity</translation>
+        <source>Tamcoin version</source>
+        <translation>Versione Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or peerunityd</source>
-        <translation>Invia un comando al -server o peerunityd</translation>
+        <source>Send command to -server or Tamcoind</source>
+        <translation>Invia un comando al -server o Tamcoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2623,13 +2623,13 @@ Questo significa che è necessaria una tariffa di almeno %2.</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation>Genera PPCoin
+        <translation>Genera TAMoin
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Non generare PPCoin
+        <translation>Non generare TAMoin
 </translation>
     </message>
     <message>
@@ -2895,30 +2895,30 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Peerunity is probably already running.</source>
-        <translation>Non è possibile ottenere il lock sulla directory dati %s. Peerunity è probabilmente già in funzione.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Tamcoin is probably already running.</source>
+        <translation>Non è possibile ottenere il lock sulla directory dati %s. Tamcoin è probabilmente già in funzione.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Peerunity</source>
-        <translation>Peerunity</translation>
+        <source>Tamcoin</source>
+        <translation>Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peerunity</source>
-        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di Peerunity</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tamcoin</source>
+        <translation>Errore caricamento wallet.dat. Il portafoglio richiede una nuova versione di Tamcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Peerunity to complete</source>
-        <translation>Il portafoglio deve essere riscritto: riavvia Peerunity per completare</translation>
+        <source>Wallet needed to be rewritten: restart Tamcoin to complete</source>
+        <translation>Il portafoglio deve essere riscritto: riavvia Tamcoin per completare</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=Tamcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2927,8 +2927,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peerunity will not work properly.</source>
-        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato Peerunity non funzionerà correttamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Tamcoin will not work properly.</source>
+        <translation>Attenzione: Per favore controlla che la data e l&apos;orario del tuo computer sono corretti. Se il tuo orario è sbagliato Tamcoin non funzionerà correttamente.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
@@ -3057,7 +3057,7 @@ Se il file non esiste, crealo con permesso sola lettura del proprietario. </tran
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i peercoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcune monete nel portafoglio sono state già spese, ad esempio se è stata usata una copia del file wallet.dat e i Tamcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>

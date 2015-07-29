@@ -1,4 +1,4 @@
-bitcoin               ICON    "pixmaps/peerunity.ico"
+bitcoin               ICON    "pixmaps/Tamcoin.ico"
 
 #include "wx/msw/wx.rc"
 
